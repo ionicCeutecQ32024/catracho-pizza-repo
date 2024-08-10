@@ -1,0 +1,68 @@
+*, 
+*:after,
+*:before {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+.tittle-Card{
+    text-align: center;
+    color: red;
+    font-size: medium;
+}
+
+.valor-Pizza-Card{
+    color: red;
+}
+
+
+.img-Pizza-Card{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    & img{
+        height: 400px;
+    }
+}
+
+.info-Compra {
+    margin: 0%;
+    margin-top: 2%;
+    display: flex;
+    justify-content:flex-start;
+    & .info{
+        margin-left: 0%;
+    }
+    
+    & .btn-Cantidad{
+        font-size: 6px; 
+        width: 2px; 
+        height: 2px;
+        margin-top: 0%;
+    }
+
+    & .btn-ordenar{
+        font-size: 12px; 
+        width: 120px; 
+        height: 12px;
+        margin-top: 0%;
+        margin-right: 0%;
+        justify-content: flex-end !important; 
+    }
+}
+
+.info-Compras {
+    margin:0%;
+    margin-top: 1%;
+    & .btn-Cantidad{
+       margin: 0%;
+    }
+}
+
+
