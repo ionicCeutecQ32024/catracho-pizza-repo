@@ -20,22 +20,29 @@
           </div>
 
         </div>
+
         <div>
           <div>
             <P>CANTIDAD:</P>
           </div>
+        
           <div>
-            <ion-button shape="round" size="small" color="medium">
+            <ion-button shape="round" size="small" color="medium" (click)="handlerRem()">
               <ion-icon slot="icon-only" name="remove"></ion-icon>
             </ion-button>
-            {{1}}
-            <ion-button shape="round" size="small" color="medium">
+            {{piz_cantidad}}
+            <ion-button shape="round" size="small" color="medium" (click)="handlerAdd()">
               <ion-icon slot="icon-only" name="add-outline"></ion-icon>
             </ion-button>
-            <ion-button color="success">ORDENAR</ion-button>
+            <ion-button color="success" size="small" (click)="AlertOrdenar()">
+              ORDENAR
+              <ion-icon slot="start" name="cart-outline"></ion-icon>
+            </ion-button>
           </div>
+        
         </div>
       </ion-card-content>
     </ion-card>
+
   </div>
 </ion-content>
