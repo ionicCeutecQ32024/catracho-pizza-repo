@@ -1,0 +1,41 @@
+<ion-content [fullscreen]="true">
+  <div>
+    <ion-card>
+      <img alt="pizza"
+        src="https://api.pizzahut.io/v1/content/en-ca/ca-1/images/pizza/pizza.big-new-yorker---pepperoni-duo.5ef3bf7b68c65f689ef69edac0613aca.1.jpg" />
+      <ion-card-header>
+        <ion-card-title>BIG NEW YORKER BACON & BANANA PEPPERS</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p>Es una pizza de gran tamaño, inspirada al estilo New York con rebanadas grandes de peperoni y trocitos de
+          bacon con abundante rebanadas de chile banana peppers de sabor suave con toque acido, con una mezcla de
+          orègano y queso parmesano sobre los ingredientes y mantequilla de ajo a la orilla.</p>
+        <div>
+          <div>
+            <P>DESDE</P>
+          </div>
+          <div>
+            <P>LPS. 329.00</P>
+          </div>
+
+        </div>
+        <div>
+          <div>
+            <P>CANTIDAD:</P>
+          </div>
+          <div>
+            <ion-button shape="round" size="small" color="medium">
+              <ion-icon slot="icon-only" name="remove"></ion-icon>
+            </ion-button>
+            {{1}}
+            <ion-button shape="round" size="small" color="medium">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+            <ion-button color="success">ORDENAR</ion-button>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
